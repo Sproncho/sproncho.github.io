@@ -24,7 +24,7 @@ body {
 }
 .main .wrapper ul li a {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5vw;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.85;
@@ -36,14 +36,14 @@ body {
   margin-top: 28vh;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 3vw;
   text-align: center;
 }
 #subtext {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3vw;
 }
 
 .buttonContainer {
@@ -84,6 +84,7 @@ body {
 .box{
     box-sizing: border-box;
     width: vw;
+    min-width: 300px;
     height:250px;
     border-radius:20px;
     border:1px solid grey;
@@ -134,6 +135,7 @@ body {
     width: 30vw;
     color:white;
     margin-bottom:30px;
+    font-size: 1.1vw;
 }
 #footerimages{
     padding-bottom:30px;
@@ -152,14 +154,14 @@ body {
 }
 #footer ul li{
     list-style: none;
-    font-size: 1.01rem;
+    font-size: 1.1vw;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     margin-bottom: 10px;
 }
 #footer ul li a{
-    font-size: 1.01rem;
+    font-size: 1.1 vw;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
