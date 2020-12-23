@@ -253,6 +253,7 @@
 }
 .related .row .rel img{
     width:100%;
+    margin: 0 auto;
 }
 .related .row .rel{
    flex-basis: calc(100%/2 - 10px);
@@ -405,4 +406,18 @@
     #subcontainer{
         width: 100%;
     }
+    #quantity-select{
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    #quantity-select button{
+        margin-top:5px;
+    }
+    .additional-right{
+        margin-left:0;
+    }
+}
+
+@media screen and (max-width:390px){
+    
 }
