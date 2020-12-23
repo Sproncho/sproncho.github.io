@@ -1,135 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
-  </head>
-  <body>
-    <button id = "envelope"><img src="./assets/icon_envelope.png" alt="envelop"></button>
-    <div class="main">
-      <div class="wrapper">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Services</a></li>
-          <li><a href="index.html">Team</a></li>
-          <li><a href="index.html">Portfolio</a></li>
-          <li><a href="index.html">Testimonials</a></li>
-          <li><a href="index.html">Blog</a></li>
-          <li><a href="index.html">Contact</a></li>
-        </ul>
-        <div id="toplogo"><img src="./assets/logo_top.png" alt="" /></div>
-        <p id="maintext">
-          STUNNING DISGN.<br />
-          PERFECT QUALITY. GREAT PRICES
-        </p>
-        <p id="subtext">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia,
-          ratione?<br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
-        <div class="buttonContainer">
-          <button id="button1">LEARN MORE</button>
-          <button id="button2">
-            <span><img src="assets/icon_play_circle.png" alt="videva" /></span>
-            VIEW VIDEO
-          </button>
-        </div>
-        <div id="down">
-          <a href=""><img src="./assets/icon_down.png" alt="down" /></a>
-        </div>
-      </div>
-    </div>
-    <div class="cardcontainer">
-      <div class="box">
-          <div class="absimg"><img src="./assets/Icon_lamp.png" alt="lamp"></div>
-          <h3>DEDICATED INTERIOR</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eaque nam dicta sed placeat dolorum eos doloribus! Ea quod maxime, harum deserunt eum excepturi iste, corrupti debitis vel, perspiciatis repellendus?</p>
-          <button>READ MORE</button>
-      </div><div class="box">
-          <div class="absimg"><img src="./assets/icon_chair.png" alt="chair"></div>
-          <h3>RELENTLESS PROJECT </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eaque nam dicta sed placeat dolorum eos doloribus! Ea quod maxime, harum deserunt eum excepturi iste, corrupti debitis vel, perspiciatis repellendus?</p>
-          <button>READ MORE</button>
-      </div><div class="box">
-          <div class="absimg"><img src="./assets/Icon_hammer.png" alt="hammer"></div>
-          <h3>CUSTOM MADE</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eaque nam dicta sed placeat dolorum eos doloribus! Ea quod maxime, harum deserunt eum excepturi iste, corrupti debitis vel, perspiciatis repellendus?</p>
-          <button>READ MORE</button>
-      </div>
-    </div>
-    <div id="stripe"></div>
-    <div id="second">
-      <div>
-        <h1>WHAT THEY SAY</h1>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, modi?<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, inventore!</p>
-      </div>
-      <div class="cardcontainer">
-        <div class="box">
-            <div class="avatar"><img src="./assets/avatar.png" alt="avatar"></div>
-            <h3>EMMA NEWMANN</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eaque nam dicta sed placeat dolorum eos doloribus! Ea quod maxime, harum deserunt eum excepturi iste, corrupti debitis vel, perspiciatis repellendus?</p>
-            <a href="#"><img src="./assets/icon_fb_flat.png" alt="fb"></a>
-            <a href="#"><img src="./assets/icon_li_flat.png" alt="li"></a>
-            <a href="#"><img src="./assets/icon_inst_flat.png" alt="inst"></a>
-            <a href="#"><img src="./assets/icon_be_flat.png" alt="inst"></a>
-        </div><div class="box">
-            <div class="avatar"><img src="./assets/avatar.png" alt="avatar"></div>
-            <h3>EMMA NEWMANN </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eaque nam dicta sed placeat dolorum eos doloribus! Ea quod maxime, harum deserunt eum excepturi iste, corrupti debitis vel, perspiciatis repellendus?</p>
-            <a href="#"><img src="./assets/icon_fb_flat.png" alt="fb"></a>
-            <a href="#"><img src="./assets/icon_li_flat.png" alt="li"></a>
-            <a href="#"><img src="./assets/icon_inst_flat.png" alt="inst"></a>
-            <a href="#"><img src="./assets/icon_be_flat.png" alt="inst"></a>
-        </div><div class="box">
-            <div class="avatar"><img src="./assets/avatar.png" alt="avatar"></div>
-            <h3>CUSTOM MADE</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit eaque nam dicta sed placeat dolorum eos doloribus! Ea quod maxime, harum deserunt eum excepturi iste, corrupti debitis vel, perspiciatis repellendus?</p>
-            <a href="#"><img src="./assets/icon_fb_flat.png" alt="fb"></a>
-            <a href="#"><img src="./assets/icon_li_flat.png" alt="li"></a>
-            <a href="#"><img src="./assets/icon_inst_flat.png" alt="inst"></a>
-            <a href="#"><img src="./assets/icon_be_flat.png" alt="inst"></a>
-
-        </div>
-      </div>
-    </div>
-    <div id="footer">
+</head>
+<body>
+    <div class="header">
         <div class="wrapper">
-          <img src="./assets/logo_bottom.png" alt="faudi">
-          <div class="clearfix"></div>
-          <div id = "leftblock">
-            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Amet inventore in libero unde quibusdam
-              laudantium odio suscipit possimus placeat,
-              soluta, modi itaque quo earum vel deserunt
-              corporis ullam alias ut?</div>
-              <div id="footerimages">
-                <a href="#"><img src="./assets/icon_fb_stroked.png" alt="fb"></a>
-                <a href="#"><img src="./assets/icon_li_stroked.png" alt="li"></a>
-                <a href="#"><img src="./assets/icon_inst_stroked.png" alt="inst"></a>
-                <a href="#"><img src="./assets/icon_be_stroked.png" alt="inst"></a>
-              </div>
-          </div>
-          <div id="rightblock">
+            <h1>fashion shop</h1>
             <ul>
-              <li><b>Useful links</b></li>
-              <li><a href="#">Style Guide</a></li>
-              <li><a href="#">Protected Page</a></li>
-              <li><a href="#">404 Page</a></li>
-              <li><a href="#">Licensing</a></li>
-              <li><a href="#">Single Portfolio</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
             </ul>
-            <ul>
-              <li><b>Contact us</b></li>
-              <li>New Yourk city</li>
-              <li>lalalalaland</a></li>
-              <li><br></li>
-              <li>+nomertelefona</li>
-              <li>somegmail@gmail.com</li>
-            </ul>
-          </div>
+            <div id="search">
+                <input type="text" placeholder="    Search"> 
+                <a href="#"><img src="./assets/cart.png" alt="cart"/></a>
+            </div>
+        </div> 
+    </div>
+    <div class="main main-lg">
+        <div class="wrapper">
+            <div class="description">
+                <h1>Red tight short</h1>
+                <p>category:Women, Shirt</p>
+                <div id="stars">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <span>5/5</span>
+                </div>
+                <p id="maintext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ad iste dolorem harum voluptatum voluptatem corporis aliquam deserunt, soluta necessitatibus reiciendis laboriosam ex ea? Ipsa at quibusdam necessitatibus ab commodi magnam ipsum impedit, eaque nemo quaerat iusto similique deserunt nostrum tempora sunt, laudantium quae ea tempore eligendi incidunt? Molestiae, dolore.</p>
+                <h3>Size:</h3>
+                <ul id="sizes">
+                    <li class="boxes">XS</li>
+                    <li class="boxes">SM</li>
+                    <li class="boxes">M</li>
+                    <li class="boxes">L</li>
+                    <li class="boxes">XL</li>
+                </ul>
+                <h3>Quantity:</h3>
+                <div id = "quantity-select">
+                    <ul id="quantity">
+                        <li class="boxes">1</li>
+                        <li class="boxes">2</li>
+                        <li class="boxes">3</li>
+                        <li class="boxes">4</li>
+                        <li class="boxes">5</li>
+                        
+                    </ul>
+                    <button id="add">Add to cart</button>
+                </div>
+            </div>
+            <div class="pictures">
+                <img id="main-picture" src="./assets/gallery_main.png" alt="">
+                <div class="subpictures">
+                    <img src="./assets/gallery_small_3.png" alt="">
+                    <img src="./assets/gallery_small_2.png" alt="">
+                    <img src="./assets/gallery_small_1.png" alt="">
+                    <img src="./assets/gallery_small_4.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
-  </body>
+    <div class="wrapper main-lg">
+        <div class="line"></div>
+    </div>
+
+
+    <div class="main main-md">
+        <div class="wrapper">
+            <div class="description">
+                <h1>Red tight short</h1>
+                <p>category:Women, Shirt</p>
+                <div id="stars">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <img src="./assets/star.png" alt="star">
+                    <span>5/5</span>
+                </div>
+                <p id="maintext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ad iste dolorem harum voluptatum voluptatem corporis aliquam deserunt, soluta necessitatibus reiciendis laboriosam ex ea? Ipsa at quibusdam necessitatibus ab commodi magnam ipsum impedit, eaque nemo quaerat iusto similique deserunt nostrum tempora sunt, laudantium quae ea tempore eligendi incidunt? Molestiae, dolore.</p>
+                <div class="pictures">
+                    <img id="main-picture" src="./assets/gallery_main.png" alt="">
+                    <div class="subpictures">
+                        <img src="./assets/gallery_small_3.png" alt="">
+                        <img src="./assets/gallery_small_2.png" alt="">
+                        <img src="./assets/gallery_small_1.png" alt="">
+                        <img src="./assets/gallery_small_4.png" alt="">
+                    </div>
+                </div>
+                <h3>Size:</h3>
+                <ul id="sizes">
+                    <li class="boxes">XS</li>
+                    <li class="boxes">SM</li>
+                    <li class="boxes">M</li>
+                    <li class="boxes">L</li>
+                    <li class="boxes">XL</li>
+                </ul>
+                <h3>Quantity:</h3>
+                <div id = "quantity-select">
+                    <ul id="quantity">
+                        <li class="boxes">1</li>
+                        <li class="boxes">2</li>
+                        <li class="boxes">3</li>
+                        <li class="boxes">4</li>
+                        <li class="boxes">5</li>
+                        
+                    </ul>
+                    <button id="add">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper main-md">
+        <div class="line"></div>
+    </div>
+
+    <div class="additional">
+        <div class="wrapper">
+            <div class="comments">
+                <h1>Leave a comment</h1>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                <form action="#" id="form-comment" method="GET">
+                    <p> <input type="text" placeholder="    Name" id="fname" name="fname"></p>
+                    <p> <input type="text" placeholder="    Email" id="femail" name="femail"></p>
+                    <p> <Textarea form="form-comment" id="fcomment" placeholder="   Comment..." id="fcomment"></Textarea></p>
+                    <div class="smiles">
+                        <img src="./assets/sm_angry.png" alt="">
+                        <img src="./assets/sm_angry_1.png" alt="">
+                        <img src="./assets/sm_cool.png" alt="">
+                        <img src="./assets/sm_crying.png" alt="">
+                        <img src="./assets/sm_greed.png" alt="">
+                        <img src="./assets/sm_happy.png" alt="">
+                        <img src="./assets/sm_happy_1.png" alt="">
+                        <img src="./assets/sm_happy_2.png" alt="">
+                        <img src="./assets/sm_in_love.png" alt="">
+                        <img src="./assets/sm_laughing.png" alt="">
+                        <img src="./assets/sm_sad.png" alt="">
+                        <img src="./assets/sm_sad_1.png" alt=""><br>
+                    </div>
+                    <div class="button"><button type = "submit">SUBMIT</button></div>
+                </form>
+                <img src="./assets/Rectangle.png" alt="">
+                <span>Allessandro Nesta</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium perspiciatis porro modi natus dignissimos quasi, quam cum molestiae, earum quos tenetur ipsa. Harum atque nobis quas eveniet doloremque ex.</p>
+            </div>
+            <div class="additional-right">
+                <h1>Related items</h1>
+                <div class="related">
+                       <div class="row">
+                            <div class="rel">
+                                <img src="./assets/img_card_1.png" alt="">  
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="rel">
+                                <img src="./assets/img_card_2.png" alt="">  
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                       </div>
+                       <div class="row">
+                            <div class="rel">
+                                <img src="./assets/img_card_3.png" alt="">  
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="rel">
+                                <img src="./assets/img_card_4.png" alt="">  
+                                <p>Lorem ipsum dolor sit amet.</p>
+    
+                            </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="footer">
+        <div class="wrapper">
+            <div class="about">
+                <h1>FASHION SHOP</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis provident dolorem eveniet numquam explicabo nisi. Distinctio, hic excepturi quo optio facere doloribus necessitatibus accusantium ab praesentium ipsa, earum ipsam incidunt.</p>
+
+            </div>
+            <div class="inst">
+                <h2>INSTAGRAM</h2>
+                <div class="inst-photos">
+                        <img src="./assets/inst_1.png" alt="">
+                        <img src="./assets/inst_2.png" alt="">
+                        <img src="./assets/inst_3.png" alt="">
+                        <img src="./assets/inst_4.png" alt="">
+                        <img src="./assets/inst_5.png" alt="">
+                        <img src="./assets/inst_6.png" alt="">
+                        <img src="./assets/inst_7.png" alt="">
+                        <img src="./assets/inst_8.png" alt="">
+                        <img src="./assets/inst_9.png" alt="">
+                        <img src="./assets/inst_1.png" alt="">
+                </div>
+            </div>
+            <divc class="menu">
+                <h3>Main menu</h3>
+                <ul>
+                    <li>About us</li>
+                    <li>Terms and conditions</li>
+                    <li>Return Policies</li>
+                    <li>Support</li>
+                    <li>Help desk</li>
+                </ul>
+                <ul>
+                    <li>Search</li>
+                    <li>Women</li>
+                    <li>Men</li>
+                    <li>Kids</li>
+                    <li>Sales</li>
+                </ul>
+            </divc>
+        </div>
+    </div> -->
+    <div class="footer">
+        <div class="wrapper">
+            <div class="fashion">
+                <h1>FASHION SHOP</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, aperiam. Esse corrupti eveniet vero et
+                    id quas perspiciatis? Optio quidem dolore corrupti ut rerum ea ducimus obcaecati vitae. Ducimus at
+                    illum laboriosam blanditiis earum. Consequuntur a, eligendi minima, laborum commodi animi suscipit
+                    sint id autem earum asperiores est nihil ratione!</p>
+
+            </div>
+            <div class="insta">
+                <h1>instagram</h1>
+                <div class="insta-photos">
+                    <img src="./assets/inst_1.png">
+                    <img src="./assets/inst_2.png">
+                    <img src="./assets/inst_3.png">
+                    <img src="./assets/inst_4.png">
+                    <img src="./assets/inst_5.png">
+                    <img src="./assets/inst_6.png">
+                    <img src="./assets/inst_7.png">
+                    <img src="./assets/inst_8.png">
+                    <img src="./assets/inst_9.png">
+                    <img src="./assets/inst_1.png">
+                </div>
+            </div>
+            <div class="menu">
+                <h1>main menu</h1>
+               <div id="subcontainer">
+                    <div class="submenu">
+                        <ul>
+                            <li>about us</li>
+                            <li>terms and conditions</li>
+                            <li>return policies</li>
+                            <li>support</li>
+                            <li>help desk</li>
+                        </ul>
+                    </div>
+                    <div class="submenu">
+                        <ul>
+                            <li>search</li>
+                            <li>women</li>
+                            <li>men</li>
+                            <li>kids</li>
+                            <li>sale</li>
+                        </ul>
+                    </div>
+                </div>
+               </div>
+        </div>
+    </div>
+</body>
+</body>
 </html>
